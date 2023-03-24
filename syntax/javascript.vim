@@ -295,7 +295,7 @@ if version >= 508 || !exists("did_javascript_syn_inits")
   HiLink jsAwaitKeyword         AwaitStatement
   HiLink jsForAwait             AwaitStatement
   HiLink jsArrowFunction        Type
-  HiLink jsFunction             Type
+  HiLink jsFunction             FunctionStatement
   HiLink jsGenerator            jsFunction
   HiLink jsArrowFuncArgs        jsFuncArgs
   HiLink jsFuncName             Function
@@ -309,7 +309,7 @@ if version >= 508 || !exists("did_javascript_syn_inits")
   HiLink jsOperator             Operator
   HiLink jsOf                   Operator
   HiLink jsStorageClass         StorageClass
-  HiLink jsClassKeyword         Keyword
+  HiLink jsClassKeyword         ClassStatement
   HiLink jsExtendsKeyword       Keyword
   HiLink jsThis                 SelfIdent
   HiLink jsSuper                Constant
